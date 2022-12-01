@@ -1,5 +1,5 @@
 @font-face {
-  font-style: medium;
+  font-style: normal;
   font-weight: 500;
   font-family: "Oswald";
   font-display: swap;
@@ -29,7 +29,8 @@ $vp-1440: 1440px;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -37,11 +38,11 @@ html, body {
 }
 
 body {
-  background-color: #ffffff;
-  color: #000000;
+  font-weight: 400;
   font-size: 16px;
   font-family: "Oswald", "Arial", sans-serif;
-  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .visually-hidden {
@@ -70,15 +71,15 @@ body {
 }
 
 .main-header__nav-link {
-  text-decoration: none;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .intro {
+  margin: 0 0 20px 0;
+  padding: 0;
   color: #ffffff;
   background-repeat: no-repeat;
-  padding: 0;
-  margin: 0 0 20px 0;
 }
 
 .intro__container {
@@ -92,19 +93,19 @@ body {
 }
 
 .intro__title {
+  margin: 0 0 25px 0;
+  padding: 0;
   font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  padding: 0;
-  margin: 0 0 25px 0;
 }
 
 .intro__text {
+  margin: 0;
+  font-weight: 400;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
-  margin: 0;
-  font-weight: 400;
 }
 
 .intro__img {
@@ -112,31 +113,31 @@ body {
 }
 
 .intro__button {
+  display: block;
   font-size: 14px;
   line-height: 18px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #68B738;
-  border: none;
   font-family: inherit;
-  display: block;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #68b738;
+  border: none;
 }
 
 .programs {
-  padding: 0;
   margin: 0 0 20px 0;
+  padding: 0;
 }
 
 .programs__list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .programs__title {
+  font-weight: 400;
   font-size: 24px;
   line-height: 37px;
-  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -145,34 +146,34 @@ body {
 }
 
 .programs__text {
-  font-family: "Lato", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
+  font-family: "Lato", "Arial", sans-serif;
 }
 
 .programs__button {
-  font-family: inherit;
   line-height: 16px;
+  font-family: inherit;
   text-transform: uppercase;
   border: none;
 }
 
 .work {
-  padding: 0;
   margin: 0 0 49px 0;
+  padding: 0;
 }
 
 .work__title {
-  font-size: 36px;
-  line-height: 40px;
   margin: 0 0 40px 0;
   font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .work__list {
-  list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .work__item {
@@ -180,48 +181,48 @@ body {
 }
 
 .work__description {
-  font-family: "Lato", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
   font-size: 14px;
   line-height: 18px;
-  padding: 0;
-  margin: 0;
+  font-family: "Lato", "Arial", sans-serif;
 }
 
 .example {
-  background-color: #eaeaea;
   padding: 25px 0 40px 0;
+  background-color: #ffffff;
 }
 
 .example__list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .example__title {
-  font-size: 36px;
-  line-height: 40px;
   margin: 0 0 40px 0;
   font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .example__description {
+  margin: 0 0 20px 0;
   font-size: 14px;
   line-height: 18px;
-  margin: 0 0 20px 0;
   font-family: "Lato", "Arial", sans-serif;
 }
 
 .example__item-title {
+  font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-  font-weight: 400;
 }
 
 .example__item-description {
-  font-family: "Lato", "Arial", sans-serif;
   font-size: 12px;
   line-height: 12px;
+  font-family: "Lato", "Arial", sans-serif;
 }
 
 .example__text {
@@ -233,17 +234,17 @@ body {
 }
 
 .contacts__title {
+  margin: 0;
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
-  margin: 0;
 }
 
 .contacts__description {
-  font-family: "Lato", "Arial", sans-serif;
+  margin: 0;
   font-size: 14px;
   line-height: 20px;
-  margin: 0;
+  font-family: "Lato", "Arial", sans-serif;
 }
 
 .main-footer__logo-html {
@@ -256,9 +257,9 @@ body {
 }
 
 .catalog__title {
+  font-weight: 400;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
 }
 
 .catalog__product-title {
@@ -274,16 +275,16 @@ body {
 }
 
 .catalog__product-link {
-  font-family: inherit;
   line-height: 20px;
-  text-transform: uppercase;
-  background-color: #68B738;
+  font-family: inherit;
   color: #ffffff;
+  text-transform: uppercase;
+  background-color: #68b738;
 }
 .catalog__product-link--all {
   color: #444444;
-  border: none;
   background-color: #f2f2f2;
+  border: none;
 }
 
 .catalog__product-all-title {
@@ -293,24 +294,24 @@ body {
 }
 
 .catalog__product-all-text {
-  font-family: "Lato", "Arial", sans-serif;
   font-size: 12px;
   line-height: 16px;
+  font-family: "Lato", "Arial", sans-serif;
 }
 
 .catalog-additionally__title {
+  font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-  font-weight: 400;
 }
 
 .catalog-additionally__present {
-  color: #ffffff;
-  font-family: "Lato", "Arial", sans-serif;
-  line-height: 20px;
   display: block;
   width: 280px;
   height: 290px;
+  line-height: 20px;
+  font-family: "Lato", "Arial", sans-serif;
+  color: #ffffff;
   background: linear-gradient(to top, rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/background-additionally.jpg");
 }
 
@@ -331,11 +332,11 @@ body {
 }
 
 .additionally__button {
-  font-family: inherit;
   line-height: 20px;
-  text-transform: uppercase;
-  background-color: #68B738;
+  font-family: inherit;
   color: #ffffff;
+  text-transform: uppercase;
+  background-color: #68b738;
 }
 
 .form__form-container {
@@ -343,15 +344,15 @@ body {
 }
 
 .form__title {
-  font-size: 36px;
   font-weight: 400;
+  font-size: 36px;
   line-height: 36px;
 }
 
 .form__subtitle {
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  font-weight: 400;
 }
 
 .form__info {
@@ -363,10 +364,10 @@ body {
 }
 
 .form__input-list-input {
-  text-transform: uppercase;
-  color: #444444;
-  font-family: inherit;
   line-height: 18px;
+  font-family: inherit;
+  color: #444444;
+  text-transform: uppercase;
 }
 
 .form__purpose {
@@ -378,9 +379,9 @@ body {
 }
 
 .form__legend {
-  color: black;
   font-size: 24px;
   line-height: 26px;
+  color: #000000;
 }
 
 .form__comment {
@@ -398,9 +399,9 @@ body {
 }
 
 .form__text {
-  text-transform: none;
   font-size: 14px;
   line-height: 16px;
   font-family: "Lato", "Arial", sans-serif;
+  text-transform: none;
 }
 /*# sourceMappingURL=style.css.map */
